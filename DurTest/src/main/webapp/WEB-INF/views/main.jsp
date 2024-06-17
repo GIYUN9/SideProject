@@ -7,10 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:forward page="WEB-INF/views/main.jsp"></jsp:forward>
-	
-	<%--
-		<jsp:forward page="WEB-INF/views/common/DurMain.jsp"></jsp:forward>
-	 --%>
+	<button onclick="test()">이동 #테스트입니다.</button>
 </body>
 </html>
+
+<script>
+	function test() {
+		
+	}
+</script>
